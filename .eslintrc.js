@@ -30,5 +30,10 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
+    'no-unused-vars': 0,
+    'no-console': 0,
+    'func-names': 0,
+    'react/jsx-no-useless-fragment': 0,
+    'react/jsx-no-bind': 0,
   },
 };

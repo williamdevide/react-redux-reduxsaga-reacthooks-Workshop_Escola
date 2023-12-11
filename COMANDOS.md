@@ -103,7 +103,11 @@ npm i redux-saga
 // INSTALAR O REDUX PERSIST
 npm i redux-persist
 
+// INSTALAR DOTENV PARA PODER UTILIZAR .ENV
+npm i dotenv
 
+// INSTALAR VALIDATOR PARA VALIDAR ENDEREÇOS DE EMAIL
+npm i validator
 
 npm install --save-dev @babel/plugin-proposal-private-property-in-object
 

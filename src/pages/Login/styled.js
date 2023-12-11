@@ -1,17 +1,15 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-  color: ${(props) => (props.isRed ? 'darkred' : 'blue')};
-  background: lightseagreen;
+export const Form = styled.form`
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 
-  small {
-    font-size: 12pt;
-    margin-left: 15px;
-    color: darkslateblue;
+  input {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
   }
-`;
-
-export const Paragrafo = styled.p`
-  color: darkblue;
-  font-size: 60px;
 `;
